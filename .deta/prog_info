@@ -1,1 +1,1 @@
-{"id":"117f75e5-e88e-4217-bee5-fbf143dc2132","space":16884,"runtime":"python3.9","name":"fastapi-crypto","path":"xmkxu6","project":"c03249w7","account":"144798365827","region":"ap-southeast-1","deps":["fastapi","pandas","pandas_ta"],"envs":null,"public":true,"log_level":"debug","cron":""}
+{"id":"9d7e386f-a3f5-419b-af5a-4f4c0d794690","space":16884,"runtime":"python3.9","name":"fastapi-crypto","path":"4jnw8i","project":"c03249w7","account":"144798365827","region":"ap-southeast-1","deps":["fastapi","pandas","pandas_ta"],"envs":null,"public":true,"log_level":"debug","cron":""}
