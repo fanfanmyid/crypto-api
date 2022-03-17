@@ -1,4 +1,5 @@
 from optparse import Option
+from pickletools import long1
 from fastapi import FastAPI
 import crypto_module as cm
 from typing import Optional
@@ -37,3 +38,7 @@ async def getData(symbol:str,interval:str,length:str,limit:str,timeStart:Optiona
 @app.get("/indicator/allForPersonal")
 async def getData(symbol:str,interval:str,limit:str,timeStart:Optional[str]=None,timeEnd:Optional[str]=None):
     return cm.indicatorAll(symbol,interval,limit,timeStart,timeEnd)
+
+# @app.get("/scrap")
+# async def scrapData(startTime:int,loop:int,timeFrame:int,interval:int):
+#     return cm.timeFrameOne(startTime,loop,timeFrame,interval)
